@@ -66,6 +66,6 @@ public class DetailInfo extends AppCompatActivity {
         TextView_rate.setText("등급 : " + jobdata.getData()[17]);
 
         TextView TextView_startend = findViewById(R.id.textView_startend);
-        TextView_startend.setText("시작-종료 일자 : " + jobdata.getData()[20] + " ~ " + jobdata.getData()[21]);
+        TextView_startend.setText("시작~종료 일자 : " + jobdata.getData()[20] + " ~ " + jobdata.getData()[21]);
     }
 }
